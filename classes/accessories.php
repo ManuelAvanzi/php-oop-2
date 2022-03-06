@@ -1,9 +1,10 @@
 <?php
 require_once __DIR__ . "/product.php";
+
 class Accessories extends Product{
-    // tipo di accessorio
+    
     protected string $acessoriesType;
-    // costruttore
+   
     function __construct(array $_productData)
     {
         $requiredKeys = ["accessoriesType"];
